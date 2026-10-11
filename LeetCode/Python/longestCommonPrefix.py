@@ -16,3 +16,11 @@ def longestCommonPrefix(strs):
 
 string_list = ["flower","flow","flight"]
 print(longestCommonPrefix(string_list))
+
+#Vertical scanning
+# No matter the language, the mental model is always a simple grid:
+# 1. Take the first word as your baseline target.
+# 2. Loop through each character position (column index col) of that first word.
+# 3. Check the same column index across every other word (row index row).
+# 4. Stop immediately if the row runs out of letters OR the letters don't match.
+

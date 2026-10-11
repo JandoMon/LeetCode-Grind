@@ -6,18 +6,14 @@
 #Idea: Put everything into a hashmap and then grab the according value while implementing the rules
 def romanToInt(s):
     roman_val = {'I':1, 'V':5, 'X':10, 'L':50, 'C':100, 'D':500, 'M':1000}
-    last_seen = 'M'
-    sum = 0
-    for char in s:
-        if roman_val[last_seen] < roman_val[char]:
-            sum -= roman_val[last_seen]
-            sum += roman_val[char] - roman_val[last_seen]
+    total = 0
+    for i in range(len(s)):
+        if i+1 < len(s) and roman_val[s[i]] < roman_val[s[i+1]]: 
+            total -= roman_val[s[i]]
         else:
-            sum += roman_val[char]
-        last_seen = char      
-    return sum
-
-roman_string = "LVIII"
+            total += roman_val[s[i]]
+    return total
+roman_string = "IX"
 print(romanToInt(roman_string))
 
 
