@@ -2,8 +2,15 @@
 #         :type s: str
 #         :rtype: int
 #         """
-
-#Idea: Put everything into a hashmap and then grab the according value while implementing the rules
+# Idea: check to see if a smaller number comes before a bigger one. If it does, subtract the current number otherwise add the current number
+# Name: Left to Right Look-Ahead Subtraction
+# Base Case: None
+# Variables: Create a hashmap with the values of each roman-value pair
+# Loop: For every index in the the list do the following:
+# Check to see if you can even look ahead in the list, if so: check to see if the next value is greater than current
+# If the condition is true: subtract the current value from the total
+# If the condition is false: add the current value to the total
+# return total 
 def romanToInt(s):
     roman_val = {'I':1, 'V':5, 'X':10, 'L':50, 'C':100, 'D':500, 'M':1000}
     total = 0
@@ -13,13 +20,6 @@ def romanToInt(s):
         else:
             total += roman_val[s[i]]
     return total
-roman_string = "IX"
+
+roman_string = "MIX"
 print(romanToInt(roman_string))
-
-
-# • Intuitive Logic: It checks if a smaller numeral precedes a larger numeral (like I before V). If it does, it subtracts; otherwise, it adds.
-# • Optimal Efficiency: Left-to-Right Look-Ahead
-#                       Look-Ahead Subtraction
-# 	• Time Complexity: \(O(N)\) — It inspects each character exactly once.
-# 	• Space Complexity: \(O(1)\) — The memory remains perfectly constant.
-# • No Double Math: Unlike your original approach, this handles subtractive pairs (like IV or XC) in a single pass without needing to undo or overwrite a previous addition.
