@@ -21,5 +21,5 @@ def romanToInt(s):
             total += roman_val[s[i]]
     return total
 
-roman_string = "MIX"
+roman_string = "MCMXCIV"
 print(romanToInt(roman_string))
