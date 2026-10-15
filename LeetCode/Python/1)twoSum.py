@@ -1,5 +1,5 @@
 #prompt to find the best solution: what approach should I use to solve this problem across as many languages to help me remember
-#what should i call this logic solution to help me remeber
+#what should i call this logic solution to help me remember
 #Idea: Search for the compliment in the list
         # :type nums: List[int]
         # :type target: int
