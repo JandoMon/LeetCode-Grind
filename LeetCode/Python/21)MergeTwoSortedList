@@ -1,4 +1,13 @@
 # Definition for singly-linked list.
+#Variables: create a dummy header to hold the beginning of the list
+#           create a current variable to keep track of the current node we are pointing to. 
+#Logic/Loop:
+#       while both list are not empty:
+#           we compare both vals and add the lesser one to the chain of pointers.
+#           we add the node to the curr.next and we move along the list we took the value
+#           we then increment curr to the next value
+#       Once we are out of the loop we check to see if either list still has any nodes left and add it to the list
+#       return the header but skip the first value
 class ListNode(object):
     def __init__(self, val=0, next=None):
         self.val = val
@@ -25,8 +34,6 @@ def mergeTwoLists(list1, list2):
         curr.next = list1
     elif list2: 
         curr.next = list2
-
-
     return header
 
 # Create the nodes and link them in reverse order (cleanest manual way)
