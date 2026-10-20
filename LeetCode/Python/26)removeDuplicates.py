@@ -2,6 +2,7 @@
         # :type nums: List[int]
         # :rtype: int
         # """
+#Idea: use a double pointer system to not only iterate through the list but to keep track of where to add the unique elements
 
 def removeDuplicates(nums):
     unique = 1
@@ -15,4 +16,4 @@ def removeDuplicates(nums):
     return unique
 
 num_list = [0,0,1,1,1,2,2,3,3,4]
-print(removeDuplicates(num_list), num_list)
+print(removeDuplicates(num_list), num_list) 
