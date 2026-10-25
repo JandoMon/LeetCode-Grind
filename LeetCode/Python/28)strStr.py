@@ -4,4 +4,4 @@
         # :rtype: int
         # """
 def strStr(haystack, needle):
-    return 
+    return null
