@@ -1,4 +1,6 @@
-#prompt to find the best solution: what approach should I use to solve this problem across as many languages to help me remember
+#prompt to find the best solution: 
+#what approach should I use to solve this problem across as many languages to help me remember
+#what is the most efficient way to sovle this problem across as many languages
 #what should i call this logic solution to help me remember
 #Idea: Search for the compliment in the list
         # :type nums: List[int]
