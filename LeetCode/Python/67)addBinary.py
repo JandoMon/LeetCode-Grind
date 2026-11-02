@@ -66,3 +66,5 @@ print(addBinary(nums_1, nums_2))
 # 	• If j is valid, add the digit and decrement j.
 # 4. Calculate: The new digit is sum % 2 (or % 10 for decimal). The new carry is sum / 2 (integer division).
 # 5. Collect & Reverse: Append the digit to a collection, and reverse it at the end.
+
+#this is my day after halloween... gimmie a break... i am going through it... 
