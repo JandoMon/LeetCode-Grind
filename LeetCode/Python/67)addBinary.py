@@ -68,3 +68,4 @@ print(addBinary(nums_1, nums_2))
 # 5. Collect & Reverse: Append the digit to a collection, and reverse it at the end.
 
 #this is my day after halloween... gimmie a break... i am going through it... 
+#i woke up late and i was dying internally 
