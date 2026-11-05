@@ -34,7 +34,7 @@ def mergeTwoLists(list1, list2):
         curr.next = list1
     elif list2: 
         curr.next = list2
-    return header
+    return header.next
 
 # Create the nodes and link them in reverse order (cleanest manual way)
 head1 = ListNode(1, ListNode(2, ListNode(4)))
