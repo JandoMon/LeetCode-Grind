@@ -9,6 +9,7 @@
 #       Once we are out of the loop we check to see if either list still has any nodes left and add it to the list
 #       return the header but skip the first value
 ##I have written the notes in my ipad and went through an example
+## I am going to write alot tmr I promise 
 class ListNode(object):
     def __init__(self, val=0, next=None):
         self.val = val
