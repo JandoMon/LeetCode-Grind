@@ -23,3 +23,4 @@ s1 = "A man, a plan, a canal: Panama"
 print(isPalindrome(s))
 
 #Need to find optimal solution
+#will do on saturday 
