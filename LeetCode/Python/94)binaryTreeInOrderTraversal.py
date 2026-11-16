@@ -39,17 +39,14 @@ def build_tree(values: List[Optional[int]]) -> Optional[TreeNode]:
 def inorderTraversal(root):
     curr = root
     stack = []
-    stackVal = []
     inOrder = []
     while curr or stack:
         if not curr: 
             curr = stack.pop()
-            recordedVal = stackVal.pop()
             inOrder.append(curr.val)
             curr = curr.right 
         else:
             stack.append(curr)
-            stackVal.append(curr.val)
             curr = curr.left 
     return inOrder
 
