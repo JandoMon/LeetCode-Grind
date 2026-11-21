@@ -79,7 +79,8 @@ print(isSameTree(tree_p, tree_q))
 # Optimal Solution:
 #  Iterative BFS (Using a Queue)
 #  Need to look into it
-#  researching bst traversing dfs and bfs 
-# i am O_o
-# GTA 6 is out!!! yippie
+#  there is bfs and dfs
+# in-order, pre-order, post-order for dfs 
+# level order traversal for bfs 
+# 
 
