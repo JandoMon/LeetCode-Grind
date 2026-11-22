@@ -82,5 +82,5 @@ print(isSameTree(tree_p, tree_q))
 #  there is bfs and dfs
 # in-order, pre-order, post-order for dfs 
 # level order traversal for bfs 
-# 
+#  What are other data structures and algorithmns I need to know
 
