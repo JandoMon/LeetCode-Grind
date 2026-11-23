@@ -83,4 +83,11 @@ print(isSameTree(tree_p, tree_q))
 # in-order, pre-order, post-order for dfs 
 # level order traversal for bfs 
 #  What are other data structures and algorithmns I need to know
+# hash map 
+# list
+# stack
+# queue
+# array (two pointer) 
+
+
 
