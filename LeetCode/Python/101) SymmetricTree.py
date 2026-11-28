@@ -80,3 +80,5 @@ p = [1,2,2,3,4,4,3]
 p2 = [1,2,2,null,3,null,3]
 tree_p = build_tree(p2)
 print(isSymmetric(tree_p))
+
+# I bought something so expensive
